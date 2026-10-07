@@ -10,7 +10,7 @@ from engine import criticality_table, rank_agreement, rerank, simulate, study, t
 
 st.set_page_config(page_title="What-If Graph Simulator", page_icon="🦋", layout="wide")
 
-DATA_FILE = Path(__file__).parent / "data" / "pairwise_causality.jsonl"
+DATA_FILE = Path(__file__).parent / "pairwise_causality.jsonl"
 COLORS = {"removed": "#d62728", "lost": "#ff7f0e", "weakened": "#f2c200", "safe": "#2ca02c"}
 NAMES = {
     "removed": "Removed event",
